@@ -1,83 +1,85 @@
 # Heroes of Pymoli
+An exploratory analysis to identify most loyal players.
 
-I've got a task of analyzing the data for a fantasy game Heroes of Pymoli. The game is free, but players are encouraged to purchase optional items that enhance their playing experience. The idea is to break down the game's purchasing data into meaningful insights. 
-Final report should include each of the following:
+## Description
 
-#### Player Count
-
-* Total Number of Players
+I've got a task of analyzing the data for a fantasy game Heroes of Pymoli. The game is free, but players are encouraged to purchase optional items that enhance their playing experience. 
 
 
-#### Purchasing Analysis (Total)
-
-* Number of Unique Items
-* Average Purchase Price
-* Total Number of Purchases
-* Total Revenue
+## Tools used:
+* Jupyter notebook
+* Python
+* Pandas
 
 
-#### Gender Demographics
+## Data Analysis
 
-* Percentage and Count of Male Players
-* Percentage and Count of Female Players
-* Percentage and Count of Other / Non-Disclosed
+### Player Count
+
+Number of total players:  576
+
+##
+### Total Purchasing Analysis
+
+| Number of Unique Items |	Average Price per Item |	Amount of Purchases |	Total Revenue|
+|------------------------|-------------------------|----------------------|--------------|
+|	179	| $3.05	| 780	| $2,379.77 |
+
+##
+### Gender Demographics Distribution
+
+| Gender | Count of Players |	Percent of Players |
+|--------|------------------|---------------------|
+| **Male**	| 484	| 84.03% |
+| **Female** |	81 |	14.06% |
+| **Other/Non-Disclosed**	| 11 |	1.91% |
+
+##
+### Purchasing Analysis by Gender
+
+| Gender | Purchase count |	Avg Purchase Price	| Total Purchase Value |	Avg Total Purchase per Person |
+|--------|----------------|---------------------|----------------------|--------------------------------|
+| Female	| 113	| $ 3.2	| $ 361.94	| $ 4.47 |
+| Male	| 652	| $ 3.02	| $ 1,967.64	| $ 4.07 |
+| Other / Non-Disclosed	| 15	| $ 3.35	| $ 50.19	| $ 4.56 |
+
+##
+### Age Demographics
+
+| Age Range | Total Count |	Percentage of Players |
+|-----------|-------------|-----------------------|
+| <10 |	17	| 2.95 % |
+| 10 - 14 |	22 |	3.82 % |
+| 15 - 19 |	107 |	18.58 % |
+| 20 - 24	| 258	| 44.79 % |
+| 25 - 29	| 77 |	13.37 % |
+| 30 - 34	| 52	| 9.03 % |
+| 35 - 40	| 31	| 5.38 % |
+| 40+	 | 12 |	2.08 % |
+
+##
+### Purchase Distribution by Age
+
+| Age Ranges | Purchase Count	| Avg Purchase Price	| Total Purchase Value	| Avg Total Purchase per Person |
+|------------|----------------|---------------------|-----------------------|-------------------------------|				
+| <10	| 23 |	$ 3.35	| $ 77.13	| $ 4.54 |
+| 10 - 14 |	28 |	$ 2.96	| $ 82.78	| $ 3.76 |
+| 15 - 19	| 136	| $ 3.04	| $ 412.89	| $ 3.86 |
+| 20 - 24	| 365	| $ 3.05	| $ 1,114.06	| $ 4.32 |
+| 25 - 29	| 101	| $ 2.9	| $ 293.0	| $ 3.81 |
+| 30 - 34	| 73	| $ 2.93 |	$ 214.0	| $ 4.12 |
+| 35 - 40	| 41	| $ 3.6	| $ 147.67	| $ 4.76 |
+| 40+ |	13 |	$ 2.94	| $ 38.24	| $ 3.19 |
 
 
-#### Purchasing Analysis (Gender)
-
-The below each broken by gender
-
-* Purchase Count
-* Average Purchase Price
-* Total Purchase Value
-* Average Purchase Total per Person by Gender
+##
+### Top Spenders
 
 
+##
+### Most Popular Items
+
+##
+### Most Profitable Items
 
 
-#### Age Demographics
-
-The below each broken into bins of 4 years (i.e. <10, 10-14, 15-19, etc.)
-
-* Purchase Count
-* Average Purchase Price
-* Total Purchase Value
-* Average Purchase Total per Person by Age Group
-
-
-
-
-#### Top Spenders
-
-Identify the the top 5 spenders in the game by total purchase value, then list (in a table):
-
-* SN
-* Purchase Count
-* Average Purchase Price
-* Total Purchase Value
-
-
-
-
-#### Most Popular Items
-
-Identify the 5 most popular items by purchase count, then list (in a table):
-
-* Item ID
-* Item Name
-* Purchase Count
-* Item Price
-* Total Purchase Value
-
-
-
-
-#### Most Profitable Items
-
-Identify the 5 most profitable items by total purchase value, then list (in a table):
-
-* Item ID
-* Item Name
-* Purchase Count
-* Item Price
-* Total Purchase Value

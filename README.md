@@ -73,13 +73,34 @@ Number of total players:  576
 
 
 ##
-### Top Spenders
+### Top 5 Spenders
 
+| SN | Purchase Count	| Avg Purchase Price	| Total Purchase value |
+|----|----------------|---------------------|----------------------|			
+| Lisosia93	| 5	| $ 3.79	| $ 18.96 |
+| Idastidru52	| 4	| $ 3.86	| $ 15.45 |
+| Chamjask73	| 3	| $ 4.61	| $ 13.83 |
+| Iral74	| 4	| $ 3.40	| $ 13.62 |
+| Iskadarya95	| 3	| $ 4.37	| $ 13.10 |
 
 ##
-### Most Popular Items
+### Top 5 Most Popular Items
+
+| Item ID	| Item Name | Purchase Count	| Item Price	| Total Purchase Value |
+|---------|-----------|-----------------|-------------|----------------------|			
+| 92	| Final Critic	| 13	| $ 4.61	| $ 59.99 |
+| 178	| Oathbreaker, Last Hope of the Breaking Storm	| 12	| $ 4.23	| $ 50.76 |
+| 145	| Fiery Glass Crusader	| 9	| $ 4.58	| $ 41.22 |
+| 132	| Persuasion	| 9	| $ 3.22	| $ 28.99 |
+| 108	| Extraction, Quickblade Of Trembling Hands	| 9	| $ 3.53	| $ 31.77 |
 
 ##
-### Most Profitable Items
+### Top 5 Most Profitable Items
 
-
+| Item ID	| Item Name | Purchase Count	| Item Price	| Total Purchase Value |
+|---------|-----------|-----------------|-------------|----------------------|				
+| 92	| Final Critic	| 13	| $ 4.61	| $ 59.99 |
+| 178	| Oathbreaker, Last Hope of the Breaking Storm	| 12	| $ 4.23	| $ 50.76 |
+| 82	| Nirvana	| 9	| $ 4.90	| $ 44.10 |
+| 145	| Fiery Glass Crusader	| 9	| $ 4.58	| $ 41.22 |
+| 103	| Singed Scalpel	| 8	| $ 4.35	| $ 34.80 |

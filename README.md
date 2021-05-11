@@ -1,5 +1,5 @@
 # Heroes of Pymoli
-An exploratory analysis to identify most loyal players.
+An exploratory analysis to identify most loyal players and most profitable items purchasing in the game.
 
 ## Description
 
